@@ -462,6 +462,7 @@ ul {
 }
 
 .footer-call {
+  font-weight: 700;
   font-size: 14px;
   line-height: 0.87;
   letter-spacing: 0.03em;
