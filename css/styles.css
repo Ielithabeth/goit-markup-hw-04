@@ -126,7 +126,6 @@ ul {
 
 .item-email,
 .item-phone {
-  top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -134,7 +133,8 @@ ul {
   color: var(--txt-light-cl);
   font-style: normal;
 
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 32px 0;
 }
 
@@ -214,14 +214,6 @@ ul {
   padding: 94px 0;
 }
 
-.benefits-icons {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-
-  margin-bottom: 30px;
-}
-
 .benefits-icon-item {
   display: flex;
   justify-content: center;
@@ -231,6 +223,8 @@ ul {
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
+
+  margin-bottom: 30px;
 }
 
 .benefits-list {
@@ -315,7 +309,7 @@ ul {
 .teammade-description {
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .teammade {
@@ -333,12 +327,13 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--txt-light-cl);
+
+  margin-bottom: 16px;
 }
 
 .social-media {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
   gap: 10px;
 }
 
